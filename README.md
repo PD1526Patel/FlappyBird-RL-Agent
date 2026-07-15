@@ -5,7 +5,7 @@ A Deep Q-Network (DQN) Reinforcement Learning agent built in PyTorch to play Fla
 ## 🎮 Agent Demo
 Below is a video recording of the trained agent playing Flappy Bird:
 
-<video src="assets/video.mp4" width="100%" autoplay loop muted controls></video>
+![Flappy Bird Agent Demo](assets/video.mp4)
 
 ---
 
