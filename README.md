@@ -2,28 +2,27 @@
 
 A Deep Q-Network (DQN) Reinforcement Learning agent built in PyTorch to play Flappy Bird using the `flappy-bird-gymnasium` environment.
 
-## 🎮 Agent Demo
+## Agent Demo
 
-Below is a video recording of the trained agent playing Flappy Bird:
+A recording of the trained agent playing Flappy Bird.
 
-<div align="center">
-  <video src="assets/video.mp4" width="100%" controls></video>
-</div>
+https://github.com/user-attachments/assets/video.mp4
+_Click the GIF to open the full-resolution video._
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This repository implements a Deep Q-Learning agent that learns to navigate the obstacles in Flappy Bird:
 
-- **Environment**: [flappy-bird-gymnasium](https://github.com/TalSnauler/flappy-bird-gymnasium) (based on OpenAI Gymnasium).
+- **Environment**: [flappy-bird-gymnasium](https://github.com/markub3327/flappy-bird-gymnasium) (based on OpenAI Gymnasium).
 - **DQN Architecture** (`dqn.py`): A Multi-Layer Perceptron (MLP) with a hidden dimension of 256, mapping 12 state variables (distances to obstacles, velocities, etc.) to 2 actions (flap or glide).
 - **Experience Replay** (`experience_replay.py`): A memory buffer of size 100,000 to store transitions and sample batches uniformly, stabilizing the Q-learning updates.
 - **Stable Training** (`agent.py`): Implements a separate Policy DQN and Target DQN, with periodic weight synchronization (every 10 steps) to prevent oscillation.
 
 ---
 
-## 🛠️ Hyperparameter Settings (`parameters.yaml`)
+## Hyperparameter Settings (`parameters.yaml`)
 
 | Hyperparameter                       | Value     | Description                                            |
 | ------------------------------------ | --------- | ------------------------------------------------------ |
@@ -39,7 +38,7 @@ This repository implements a Deep Q-Learning agent that learns to navigate the o
 
 ---
 
-## 💻 Setup and Usage
+## Setup and Usage
 
 ### Prerequisites
 
