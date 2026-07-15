@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/37185293-8528-44d9-af0b-cad50dad3c52
+
 # Flappy Bird DQN (Reinforcement Learning) Agent
 
 A Deep Q-Network (DQN) Reinforcement Learning agent built in PyTorch to play Flappy Bird using the `flappy-bird-gymnasium` environment.
