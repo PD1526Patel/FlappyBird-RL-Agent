@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE configs
+.vscode/
+
+# Reinforcement learning runs (models and logs)
+runs/
+*.log
+*.pt
+
